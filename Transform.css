@@ -1,0 +1,32 @@
+.circle
+{
+height: 300px;
+width: 300px;
+border-radius: 100%;
+background-color: lightblue;
+text-align: center;
+transition: background-color 2s;
+}
+
+.circle:hover
+{
+  background-color: yellow;
+}
+
+
+/* More effects */
+.circle-more
+{
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  text-align: center;
+  background-color: pink;
+  transition: background-color 1s, transform 3s;
+}
+
+.circle-more:hover
+{
+  background-color: yellow;
+  transform: rotate(360deg);
+}
